@@ -1,0 +1,36 @@
+
+/* id selector */
+#section {
+    color: greenyellow;
+    background-color: black;
+}
+
+/* class selector */
+.inverted {
+    background-color: black;
+    color: white;
+}
+
+/* element selector */
+button {
+    border-radius: 7px;
+    padding: 2px;
+    margin: 2px;
+    border: none;
+    background-color: darkgrey;
+}
+/* wildcard */
+ul > * {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    color: red;
+}
+ul {
+    padding: 0;
+}
+
+button {
+    background-color: darkorange;
+}
